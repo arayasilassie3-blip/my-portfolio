@@ -57,30 +57,6 @@ const Navbar = () => {
       </div>
 
       {/* Mobile Menu */}
-      {/* <div
-        className={`overflow-hidden bg-slate-800 transition-all duration-300 md:hidden ${
-          menuOpen ? "max-h-96" : "max-h-0"
-        }`}
-      >
-        <ul className="flex flex-col">
-          {navItems.map((item) => (
-            <li key={item.label}>
-              <a
-                href={item.href}
-                onClick={closeMenu}
-                className={`block border-b border-slate-700 px-6 py-4 transition ${
-                  activeSection === item.id
-                    ? "bg-slate-700 text-cyan-400 font-semibold"
-                    : "hover:bg-slate-700 hover:text-cyan-400"
-                }`}
-              >
-                {item.label}
-              </a>
-            </li>
-          ))}
-        </ul>
-      </div> */}
-      {/* Mobile Menu */}
       <div
         className={`overflow-hidden transition-all duration-300 md:hidden 
   bg-white text-slate-700 
