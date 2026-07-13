@@ -12,8 +12,8 @@ export const projects: Project[] = [
     description:
       "A modern responsive portfolio website built with React and TypeScript.",
     technologies: ["React", "TypeScript", "Tailwind CSS"],
-    github: "https://github.com/yourname/portfolio",
-    demo: "https://yourwebsite.com",
+    github: "https://github.com/arayasilassie3-blip/my-portfolio",
+    demo: "https://my-portfolio-two-iota-54.vercel.app/",
     image: portfolioImage,
   },
 
@@ -22,8 +22,14 @@ export const projects: Project[] = [
     title: "Task Manager App",
     description:
       "A full stack task management application with authentication.",
-    technologies: ["React", "Node.js", "PostgreSQL"],
-    github: "https://github.com/yourname/task-manager",
+    technologies: [
+      "React",
+      "TypeScript",
+      "Express.js",
+      "Node.js",
+      "PostgreSQL",
+    ],
+    github: "https://github.com/arayasilassie3-blip/task-manager-app",
     demo: "",
     image: taskImage,
   },
@@ -33,7 +39,7 @@ export const projects: Project[] = [
     title: "Church Design and Build",
     description: "Bari Mariam Church is designed and built in North Shoa Zone.",
     technologies: ["Autocad", "Etabs"],
-    github: "https://github.com/yourname/school-system",
+    github: "https://github.com/yourname",
     demo: "",
     image: churchImage,
   },
